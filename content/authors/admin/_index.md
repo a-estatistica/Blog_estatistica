@@ -12,7 +12,7 @@ social:
   link: https://www.instagram.com/_estatistica/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/a-estatistica
 superuser: true
 title: "@_Estatistica"
 ---
