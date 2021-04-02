@@ -1,0 +1,67 @@
+---
+title: Jogos no R? SIM!
+author: '[A]² Estatística'
+date: '2021-03-24'
+slug: jogos-no-r-sim
+categories:
+  - Jogos
+tags:
+  - Games
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-03-24T20:23:01-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p><img src="images/photo1.jpg" /></p>
+<p>Olá pessoal, tudo bem? Estamos muito animados em tê-los aqui e esperamos que gostem do conteúdo que iremos compartilhar com vocês a partir de hoje.</p>
+<p>Nosso primeiro #post traz uma brincadeira gostosa pra vocês, afinal, programar não precisa ser chato, né? Assim, este post é para mostrar que é possível SIM se divertir com programação em R.</p>
+<p>Graças ao <a href="https://github.com/Rlesur/Rcade">Romain Lesur</a> é possível rodar jogos em HTML5 no R sim! 😍 e de um jeito facim facim…. 😏</p>
+<p>A receita de bolo é muito simples….</p>
+<p>Você vai precisar de 2 ingredientes importantes: <strong>devtools</strong> + <strong>Rcade.</strong> Desta forma, siga os passos 🚶:</p>
+<p><u><strong>Passo 1 -</strong></u> Verifique se o pacote devtools já está instalado em seu computador, caso contrário, utilize-se o seguinte comando para instalação:</p>
+<pre class="r"><code># install.packages(&quot;devtools&quot;)</code></pre>
+<blockquote>
+<p>Nota: Provavelmente em computadores com o sistema operacional Windows seja necessária a instalação/atualização do pacote Rtools. Você pode baixar e seguir as orientações de instalação <a href="https://cran.r-project.org/bin/windows/Rtools">clicando aqui</a>.</p>
+</blockquote>
+<p><u><strong>Passo 2 -</strong></u> Agora vamos trazer o pacote do <a href="https://github.com/Rlesur/Rcade">Romain Lesur</a> para fazer o download diretamente do GitHub:</p>
+<pre class="r"><code>devtools::install_github(&#39;RLesur/Rcade&#39;)</code></pre>
+<p>Pronto! Agora vamos explorar a lista com todos os jogos disponíveis neste pacote através do comando:</p>
+<pre class="r"><code>Rcade::games</code></pre>
+<p>Possivelmente vocês vão se deparar com essa lista:</p>
+<ul>
+<li><p>2048</p></li>
+<li><p>BoulderDash</p></li>
+<li><p>CathTheEgg</p></li>
+<li><p>Core</p></li>
+<li><p>CustomTetris</p></li>
+<li><p>GreenMahjong</p></li>
+<li><p>Mariohtml5 (aaaaaaaa 😍)</p></li>
+<li><p>Pacman</p></li>
+<li><p>Pond</p></li>
+<li><p>SpiderSolitaire</p></li>
+<li><p>SURVIVOR</p></li>
+</ul>
+<p>E aí, já escolheu o seu jogo favorito? Então o passo final é selecionar o jogo desejado através do comando:</p>
+<pre class="r"><code># Super Mario
+Rcade::games$Mariohtml5</code></pre>
+<blockquote>
+<p>Vale lembrar que na primeira vez que o jogo for selecionado, ele precisará ser instalado (é rapidinho… 😎)</p>
+</blockquote>
+<p>Eu escolhi o jogo do Super Mário (😍) para exemplificar, mas se vocês quiserem quaisquer outros jogos, basta modificar após sinal de “$” com o nome do joguinho que você deseja (Ex: Rcade::games$Pacman).</p>
+<p>Prontinho!</p>
+<p>Diversão garantida e usando o nosso querido R 💖</p>
+<p>Gostaram do nosso post?</p>
+<p>Chama os zamigos(as) pra jogar também!</p>
+<p>Aproveita e acompanhar nossas redes pra ficar ligadinho(a) nas novidades do #blog</p>
+<p>Nos vemos no próximo post! 🚀🥰</p>
+<p>💻 By <strong>[A]²</strong> <u><strong>E</strong></u>statística</p>
