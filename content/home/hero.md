@@ -60,6 +60,6 @@ title = ""
 
 Aprenda de **Tudo um** 
 
-**pouco** com Estatistica
+**pouco** com Estatística
 
 
